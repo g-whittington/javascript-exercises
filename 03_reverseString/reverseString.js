@@ -6,7 +6,7 @@ const reverseString = function(word) {
     for (let i = 0; i < wordLength; i++){
         reverseWord += wordArr.pop();
     };
-
+    
     return reverseWord;
 };
 
